@@ -1,0 +1,247 @@
+.immo-trust {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.immo-trust-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.immo-trust-logo {
+  display: flex;
+  align-items: center;
+}
+
+.immo-trust-logo img {
+  width: 205px;
+  height: 67px;
+  margin-right: 10px;
+}
+
+.top-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.tools-icon {
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #effbff;
+  border: none;
+  display: flex;
+  justify-content: end;
+  color: #003f52;
+  padding: 6px 10px;
+  line-height: 13.02px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-sm {
+  background-color: #eefbff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  color: #003f52;
+  padding: 6px 26px;
+  line-height: 13.02px;
+  width: 50px;
+  text-align: center;
+  border-radius: 39px;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-pdf {
+  background-color: #eefbff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #003f52;
+  padding: 6px 10px;
+  line-height: 13.02px;
+  width: 66px;
+  text-align: center;
+  border-radius: 39px;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-pdf img {
+  margin-left: 4px;
+  width: 10px !important;
+  height: 10px !important;
+}
+.immo-trust-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.immo-trust-menu li {
+  display: flex;
+  align-items: start;
+  padding: 10px 10px;
+  color: #004458;
+  gap: 12px;
+}
+
+.bg-dark {
+  display: flex;
+  align-items: start;
+  padding: 10px 0;
+  color: #ffffff !important;
+  background: #024154;
+  gap: 12px;
+}
+
+.immo-trust-menu img {
+  width: 24px;
+  height: 24px;
+}
+
+.immo-trust-menu p {
+  margin: 0;
+}
+
+.immo-trust-menu p:first-child {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.immo-trust-menu p:last-child {
+  font-size: 13px;
+  font-weight: 400;
+}
+.pdf {
+  background-color: #004458;
+}
+
+/* profile card */
+
+.immo-trust-profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #459e97;
+  padding: 40px 20px 20px;
+  border-radius: 15px;
+  margin-top: 60px;
+  border: 3px solid #e0e0e0;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.profile-picture-container {
+  position: absolute;
+  top: -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: white;
+  overflow: hidden;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info h3 {
+  font-size: 1.5em;
+  margin: 20px 0 5px;
+}
+
+.profile-info p {
+  font-size: 1em;
+  margin: 5px 0;
+  line-height: 24px;
+}
+
+.profile-info span {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+.immo-trust-rating {
+  text-align: center;
+  margin-top: 20px;
+  color: #004458;
+  font-size: 12px;
+}
+
+.rating-sec {
+  display: flex;
+}
+
+.google-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-logo {
+  width: 28px;
+}
+
+.rating-text {
+  font-size: 14px;
+  color: #459e97;
+  font-weight: 700;
+}
+
+.rating-info {
+  display: block;
+  margin-top: 20px;
+  color: #024154;
+  font-size: 10px;
+}
+
+.star-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.star-bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.star-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: content-box;
+}
